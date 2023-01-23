@@ -1,0 +1,64 @@
+import random, string
+import requests
+import colorama
+import dateime
+import discord
+from dhooks
+import webhook
+import threading
+colorama.init()
+
+def sendWebhook(link):
+    Found = discord.Color.from_rgb(255, 51, 255)
+webhook = "https://discord.com/api/webhooks/1067025236874244166/-9bKZkNBXZoKPyQsdB-g8Dkghep_2m177mjg3TbL9_B3DuuXLowvj3blYnBdYCJ0Pxiq"
+hook = Webhook(webhook)
+
+embed = discord.Embed(
+    description = "Nitro Located!",
+    color = Found, timestamp = datetime.datetime.utcnow(),
+
+)
+embed.set_author(name = "smd")
+embed.add_field(name = Link: ", value+str(link))
+        hook.send(embed = enabled)
+
+        def onReady(amount):
+        onReady = discord.Color.from_rgb(37, 114, 68)
+
+        webhook =
+        https: //discord.com/api/webhooks/1067025236874244166/-9bKZkNBXZoKPyQsdB-g8Dkghep_2m177mjg3TbL9_B3DuuXLowvj3blYnBdYCJ0Pxiq
+
+        hook = Webhook(webhook)
+
+        embed = discord.Embed(
+            description = "ty for code!",
+            color = onReady timestamp = datetime.datetime.utcnow(),
+
+        ) embed.set_author(name = "my dick") embed.add_field(name "Gen Amount: ", value = str(amount)) hook.send(embed = embed)
+
+        num = imput("[?] Input how many codes you want to generate and check: ") onReady(num) f = open("Nitro Test.txt, "
+            w ", encoding='utf-8')
+
+            for n in range(int(num)):
+            y = ''.join(random.choice(string.ascii_uppercase + string.digits + string.ascii_lowercase) for _ in range(16)) f.write(y) f.write("/n")
+
+            f.close()
+
+            #checker
+
+            with open("Nitro Test.txt") as f:
+            for line in f:
+            nitro = line.strip('/n"))
+
+                url = "https://discord.com/channels/@me" + nitro +
+                "?with_application=false&with_subscription_plan=true"
+
+                r = requests.get(url)
+
+                if rstatus_code == 200:
+                sendWebhook(line.strip("n\"))
+
+
+                        else:
+                            print("\033[31m" + " Invalid Code Found > {}".format(line.strip("\n)))
+                                        print("\033[37m")
